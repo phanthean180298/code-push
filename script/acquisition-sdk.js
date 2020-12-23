@@ -99,7 +99,7 @@ var AcquisitionManager = /** @class */ (function () {
           packageSize: updateInfo.package_size,
           downloadUrl: updateInfo.download_url.replace(
             "https://codepushupdates.azureedge.net/",
-            "http://codepush-update.tekog.tk/"
+            "https://codepush-update.tekog.tk/"
           ),
         };
         callback(/*error=*/ null, remotePackage);
